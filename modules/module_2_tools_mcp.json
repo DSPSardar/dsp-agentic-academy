@@ -1,0 +1,47 @@
+{
+  "id": "module_2",
+  "title": "Agent Tools and MCP",
+  "summary": "Learn how agents use tools to take action, and how MCP connects agents to the world.",
+  "concepts": [
+    {
+      "name": "What are Tools?",
+      "explanation": "Tools are functions that an agent can call to do things it cannot do by itself. For example: searching the web, reading a file, checking the weather, or saving data. Without tools, an agent can only talk. With tools, it can act."
+    },
+    {
+      "name": "How Tool Calling Works",
+      "explanation": "When an agent needs information or needs to do something, it calls a tool by name and passes inputs. The tool runs and returns a result. The agent reads the result and continues its work."
+    },
+    {
+      "name": "What is MCP?",
+      "explanation": "MCP stands for Model Context Protocol. It is a standard way for AI agents to discover and connect to tools and data sources. Think of MCP like a USB standard — any device that follows USB can plug into any USB port. Any tool that follows MCP can plug into any MCP-compatible agent."
+    },
+    {
+      "name": "Why MCP Matters",
+      "explanation": "Before MCP, every agent needed custom code to connect to each tool. MCP creates one standard way to connect, making agents more reusable and tools more shareable."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "question": "What is the main purpose of a tool in an agent system?",
+      "options": ["A) To make the agent look smart", "B) To let the agent take real actions like searching or saving data", "C) To slow the agent down", "D) To replace the agent's memory"],
+      "answer": "B",
+      "explanation": "Tools extend what an agent can do — from just talking to actually acting in the world."
+    },
+    {
+      "id": "q2",
+      "question": "What does MCP stand for?",
+      "options": ["A) Machine Code Protocol", "B) Multi-Channel Processing", "C) Model Context Protocol", "D) Memory Control Panel"],
+      "answer": "C",
+      "explanation": "MCP is the Model Context Protocol — a standard for connecting agents to tools and data."
+    },
+    {
+      "id": "q3",
+      "question": "Which real-world object is MCP most similar to?",
+      "options": ["A) A calculator", "B) A USB standard connector", "C) A telephone", "D) A keyboard"],
+      "answer": "B",
+      "explanation": "Like USB, MCP is a standard so any compatible tool can plug into any compatible agent."
+    }
+  ],
+  "playground_demo": "tool_call"
+}

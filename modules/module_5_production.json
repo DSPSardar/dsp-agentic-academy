@@ -1,0 +1,51 @@
+{
+  "id": "module_5",
+  "title": "Prototype to Production",
+  "summary": "Learn how to safely move your agent from a local test to a real-world system.",
+  "concepts": [
+    {
+      "name": "What is Deployment?",
+      "explanation": "Deployment means making your agent available to real users, not just yourself. It involves putting your code on a server so others can access it through the internet."
+    },
+    {
+      "name": "Safety Before Deployment",
+      "explanation": "Before deploying, always check: Are secrets stored safely? Did you test all edge cases? Is there a human review step for risky actions? What happens if the agent gets a confusing input?"
+    },
+    {
+      "name": "Human-in-the-Loop",
+      "explanation": "Human-in-the-loop means a real person approves important agent actions before they happen. For example, before an agent sends an email or deletes a file, it should ask for human approval."
+    },
+    {
+      "name": "Agent2Agent (A2A)",
+      "explanation": "A2A means two or more agents communicating with each other to complete a task. For example, a Manager Agent assigns a task to a Research Agent and a Writing Agent. They work together and report back."
+    },
+    {
+      "name": "Cloud Billing Warning",
+      "explanation": "When you deploy to cloud services, costs can add up quickly. Always check pricing before enabling cloud APIs. Start with free tiers and set spending limits."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "question": "What does human-in-the-loop mean?",
+      "options": ["A) A human writes all the code", "B) A real person approves important agent actions before they run", "C) The agent replaces all human workers", "D) Humans train the model daily"],
+      "answer": "B",
+      "explanation": "Human-in-the-loop keeps humans in control of risky or important agent actions."
+    },
+    {
+      "id": "q2",
+      "question": "What should you always check before deploying an agent to the cloud?",
+      "options": ["A) The agent's favorite color", "B) Whether secrets are stored safely and billing limits are set", "C) How fast your home internet is", "D) The number of lines of code"],
+      "answer": "B",
+      "explanation": "Secret management and billing control are critical safety steps before deployment."
+    },
+    {
+      "id": "q3",
+      "question": "What is Agent2Agent (A2A)?",
+      "options": ["A) A programming language", "B) Two agents communicating to complete a task together", "C) A way to delete agents", "D) A type of database"],
+      "answer": "B",
+      "explanation": "A2A enables multi-agent workflows where specialized agents collaborate on complex tasks."
+    }
+  ],
+  "playground_demo": "human_loop"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "module_4",
+  "title": "Agent Quality: Evaluation, Logging, and Tracing",
+  "summary": "Learn how to make sure your agent is working correctly and safely before you share it with others.",
+  "concepts": [
+    {
+      "name": "Why Evaluation Matters",
+      "explanation": "An agent might give wrong answers or do unsafe things without you knowing. Evaluation means testing your agent against known correct answers to check if it is working as expected."
+    },
+    {
+      "name": "Test Cases and Rubrics",
+      "explanation": "A test case is a sample input with a known expected output. A rubric is a checklist of what a good answer looks like. Together they help you measure agent quality automatically."
+    },
+    {
+      "name": "Logging and Tracing",
+      "explanation": "Logging means recording what your agent did and why. Tracing means following the exact path of a request through your system. These tools help you find bugs and understand failures."
+    },
+    {
+      "name": "The Improvement Loop",
+      "explanation": "Good agent teams run evaluations regularly. When an agent fails a test, they fix the instructions or tools and run again. This loop keeps making the agent better over time."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "question": "What is the purpose of a test case?",
+      "options": ["A) To make the code look longer", "B) To check if the agent gives the right answer to a known input", "C) To speed up the agent", "D) To connect to the internet"],
+      "answer": "B",
+      "explanation": "Test cases verify that your agent behaves correctly for known inputs."
+    },
+    {
+      "id": "q2",
+      "question": "What does logging help you do?",
+      "options": ["A) Make the UI look better", "B) Record what the agent did so you can find bugs later", "C) Save money on API calls", "D) Speed up response time"],
+      "answer": "B",
+      "explanation": "Logs record agent decisions and actions, which helps you debug and improve the system."
+    },
+    {
+      "id": "q3",
+      "question": "What is the improvement loop?",
+      "options": ["A) A type of for-loop in Python", "B) Running evaluations, finding failures, fixing them, and testing again", "C) A way to make agents run faster", "D) A method to compress data"],
+      "answer": "B",
+      "explanation": "The improvement loop is the continuous cycle of evaluate → fix → evaluate again."
+    }
+  ],
+  "playground_demo": "eval_flow"
+}

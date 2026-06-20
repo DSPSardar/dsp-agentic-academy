@@ -1,0 +1,47 @@
+{
+  "id": "module_1",
+  "title": "Introduction to Agents",
+  "summary": "Learn what AI agents are, how they think, and how they are different from regular chatbots.",
+  "concepts": [
+    {
+      "name": "What is an AI Agent?",
+      "explanation": "An AI agent is a program that can think, decide, and take actions on its own to reach a goal. Unlike a chatbot that just answers questions, an agent can use tools, remember things, and keep trying until the job is done."
+    },
+    {
+      "name": "The Agent Loop",
+      "explanation": "An agent works in a loop: (1) Perceive - it reads the situation. (2) Think - it decides what to do. (3) Act - it uses a tool or gives an answer. (4) Observe - it checks the result. Then it loops again until the goal is complete."
+    },
+    {
+      "name": "Goals and Instructions",
+      "explanation": "Every agent has a goal and a set of instructions. The goal tells it what to achieve. The instructions tell it how to behave, what tools to use, and what to avoid."
+    },
+    {
+      "name": "Agents vs Chatbots",
+      "explanation": "A chatbot waits for your question and replies. An agent can plan steps, use multiple tools, remember past steps, and work toward a goal without you asking for every single step."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "question": "What makes an AI agent different from a regular chatbot?",
+      "options": ["A) An agent can only answer questions", "B) An agent can take actions, use tools, and work toward goals", "C) An agent needs internet to work", "D) An agent is always faster than a chatbot"],
+      "answer": "B",
+      "explanation": "An agent can plan, use tools, and act in a loop to achieve goals — not just reply to questions."
+    },
+    {
+      "id": "q2",
+      "question": "What are the four steps in the agent loop?",
+      "options": ["A) Read, Write, Delete, Save", "B) Ask, Answer, Repeat, Stop", "C) Perceive, Think, Act, Observe", "D) Login, Search, Download, Upload"],
+      "answer": "C",
+      "explanation": "The agent loop is: Perceive the situation, Think about what to do, Act using a tool or response, then Observe the result."
+    },
+    {
+      "id": "q3",
+      "question": "What does an agent's instruction file tell it?",
+      "options": ["A) What time to wake up", "B) How to behave, what tools to use, and what to avoid", "C) Which students to talk to", "D) How to connect to the internet"],
+      "answer": "B",
+      "explanation": "Instructions define the agent's personality, rules, available tools, and boundaries."
+    }
+  ],
+  "playground_demo": "agent_loop"
+}

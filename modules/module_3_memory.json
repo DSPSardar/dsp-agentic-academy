@@ -1,0 +1,47 @@
+{
+  "id": "module_3",
+  "title": "Context Engineering: Sessions and Memory",
+  "summary": "Learn how agents remember things across a conversation and across sessions.",
+  "concepts": [
+    {
+      "name": "Short-Term Memory",
+      "explanation": "Short-term memory is everything in the current conversation. The agent can remember what you said two messages ago. But when you close the chat, this memory is gone — like forgetting a dream after waking up."
+    },
+    {
+      "name": "Long-Term Memory",
+      "explanation": "Long-term memory is saved to a file or database. Even after you close and reopen the app, the agent still knows your name, your progress, and what you learned last time."
+    },
+    {
+      "name": "Session State",
+      "explanation": "Session state is information the agent tracks during one active session. For example, which questions you already answered in a quiz, or which modules you visited today."
+    },
+    {
+      "name": "Why Memory Matters for Agents",
+      "explanation": "Without memory, every conversation starts from zero. With memory, an agent can say 'Welcome back! Last time you studied Module 2. Ready for Module 3?' This makes agents much more useful and personal."
+    }
+  ],
+  "quiz_questions": [
+    {
+      "id": "q1",
+      "question": "Which type of memory is lost when you close the chat?",
+      "options": ["A) Long-term memory", "B) Short-term memory", "C) Session file", "D) Progress tracker"],
+      "answer": "B",
+      "explanation": "Short-term memory only lasts during the current conversation window."
+    },
+    {
+      "id": "q2",
+      "question": "Where is long-term memory usually stored?",
+      "options": ["A) Inside the LLM model", "B) In the user's browser tab", "C) In a file or database", "D) In the CPU cache"],
+      "answer": "C",
+      "explanation": "Long-term memory must be saved to a file or database to survive after the session ends."
+    },
+    {
+      "id": "q3",
+      "question": "What does session state track?",
+      "options": ["A) The weather outside", "B) Information about the current active session, like quiz progress", "C) The agent's source code", "D) The internet speed"],
+      "answer": "B",
+      "explanation": "Session state holds temporary data for the current active session — like which questions you answered."
+    }
+  ],
+  "playground_demo": "memory_flow"
+}
